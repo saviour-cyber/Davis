@@ -5,82 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Website</title>
     <link rel="stylesheet" href="style.css">
-    <title>Image Size and Alingment</title>
-
 </head>
 <body>
-    <div class="Image-contaner">
-        
-    <header>
-        <div class="logo">
-            <img src="Screenshot_20250103-125330.jpg" alt="Company Logo">
-        </div>
-        <nav>
+    <div class="image-container">
+        <header>
+            <div class="logo">
+                <img src="Screenshot_20250103-125330.jpg" alt="Company Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="box">Creating unforgettable memories, one event at a time</div>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Your trusted partner in event planning and decorations.</p>
+            <img src="IMG-20241117-WA0022(1).jpg" alt="About Us Image" height="200">
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
             <ul>
-                <li><a href="#about">About us</a></li>
-                <li><a href="#services">services</a></li>
-                <li><a href="#contact">Contact us</a></li>
-                
+                <li>Wedding Ceremonies</li>
+                <li>Ruracios/Dowry Traditional Ceremonies</li>
+                <li>Graduation Ceremonies</li>
+                <li>Introduction Ceremonies</li>
+                <li>Anniversary Ceremonies</li>
+                <li>All Event Decorations</li>
+                <li>Traditional Weddings</li>
             </ul>
-        </nav>
-    </header>
-    <div id="box">creating unforgetable memories,one event at a time</div>
+            <img src="events.jpeg" alt="Services Image">
+        </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p></p>
-        <img src="IMG-20241117-WA0022(1).jpg"="About Us Image"
-        height="200">
-        
-    </section>
+        <section id="events">
+            <h2>Events and Activities</h2>
+            <p>Your event, our passion!</p>
+            <img src="IMG-20240903-WA0032.jpg" alt="Event Image 1" height="200" width="300">
+            <img src="IMG-20241002-WA0019(1).jpg" alt="Event Image 2" height="200" width="300">
+            <img src="events.jpeg" alt="Event Image 3" height="200" width="300">
+        </section>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li> weddings Ceremonies</li>
-            <li>Ruracios/Dowery tradational Ceremonies</li>
-            <li> Graduations Ceremonies </li>
-            <li>introductions Ceremonies</li>
-            <li>Anniversary Ceremonies</li>
-            <li>And all events decoration</li>
-            <li>Tradational Weddings</li> 
-        </ul>
-        <img src="events.jpeg" alt="Services Image">
-    </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Phone: 0706515276</p>
+                <p>Email: dacaianenterprises@gmail.com</p>
+                <p>Location: Nanyuki, Kenya</p>
+                <p>Follow us on <a href="https://facebook.com" target="_blank">Facebook</a></p>
+                <p>Contact us on <a href="https://wa.me/254706515276" target="_blank">WhatsApp</a></p>
+            </div>
+        </section>
 
-    <section id="events">
-        <h2>Events and Activities</h2>
-        <p>your event, our passion !</p>
-        <img src="IMG-20240903-WA0032.jpg" alt="Events Image" height="200"width="300">
-        <img src="IMG-20241002-WA0019(1).jpg" alt="Events Image" height="200"width="300">
-        <img src="events.jpeg" alt="Events Image" height="200"width="300">
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form id="contact-form">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required><br>
-            <br>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required><br>
-            <label for="message">Message</label>
-            <br>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send Message</button>
-            
-        </form>
-        <div class="contact-info">
-            <p>Phone: 0706515276</p>
-            <p>Email: dacaianenterprises@gmail.com</p>
-            <p>Location:Nanyuki, kenya</p>
-            <p>Follow us on <a href="https://facebook.com" target="_blank">Facebook</a></p>
-            <p>Contact us on <a href="https://wa.me/1234567890" target="_blank">WhatsApp</a></p>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Dacaian Enterprises. All rights reserved.powered by SAVIOUR@ke</p>
-    </footer>
+        <footer>
+            <p>&copy; 2025 Dacaian Enterprises. All rights reserved. Powered by SAVIOUR@KE</p>
+        </footer>
+    </div>
 </body>
 </html>
